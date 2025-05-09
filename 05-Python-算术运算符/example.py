@@ -18,9 +18,9 @@
 # print(5 / 0)
 
 # 整除运算符
-print(5 // 2)
-print(5.2 // 2)
-print(6 // 3)
+# print(5 // 2)
+# print(5.2 // 2)
+# print(6 // 3)
 
 # 求模运算符
 # 求余运算符
@@ -47,9 +47,13 @@ print(6 // 3)
 
 # 整除和求余的应用场景
 # 行列,特别是九宫格的应用布局
-num = 6
+# num = 6
 
-row = num // 4
-col = num % 4
+# row = num // 4
+# col = num % 4
 
-print(row, col)
+# print(row, col)
+
+print(2 * 2)         # 输出 4
+print("a" * 3)       # 输出 "aaa"
+print([0] * 4)       # 输出 [0, 0, 0, 0]
