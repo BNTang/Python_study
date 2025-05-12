@@ -36,9 +36,40 @@
 # 多个空格也是显示一个空格
 # print("%  d" % 100)
 
-min = 5
-sec = 8
+# 分
+# min = 5
+# 秒
+# sec = 8
 # 05:08
 # print("%d:%d" % (min, sec))
+# 我写一个2，在控制台允许的效果居然是空格进行填充的
 # print("%2d:%2d" % (min, sec))
+# 如果我想让它在控制台显示的效果是 05:08，我就用0补充即可
+# print("%02d:%02d" % (min, sec))
+# 12d，表示填充12个空格
 # print("%12d:%02d" % (min, sec))
+
+# typeCode：表示数据的类型
+score = 59.9
+# 显示不全
+# print("%d" % score)
+# 精度太高
+# print("%f" % score)
+# print("%.2f" % score)
+# print("%d" % 0b10)
+# print("%d" % 0o10)
+# print("%d" % 0x10)
+
+# print("%o" % 10)
+# print("%E" % 155555555555)
+
+# print("%d" % 101.1)
+# print("%g" % 10111111111111111)
+
+# print("%s" % "abc")
+# print("%c" % 97)
+
+# 99%
+# print("99%")
+# score = 65
+# print("%d%%" % score)
