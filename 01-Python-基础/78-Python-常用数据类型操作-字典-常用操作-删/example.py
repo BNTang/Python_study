@@ -6,15 +6,35 @@
 # @Software: VSCode
 # @Email   : it666@linux.do
 # @Github  : https://github.com/BNTang
-# @Description: 77-Python-常用数据类型操作-字典-常用操作-增
+# @Description: 78-Python-常用数据类型操作-字典-常用操作-删
 
-# 增，当key在原字典中不存在时，即为新增操作
-d = {"name": "NEO", "age": 18}
-print(type(d))
-print(d)
-print(id(d))
+# del：
+# d = {"name": "NEO", "age": 18}
+# # del d["name"]
+# del d["name2"] # KeyError
+# print(d)
 
-# 新增
-d["gender"] = "男"
+# pop
+# d = {"name": "NEO", "age": 18}
+# # result = d.pop("name")
+# # result = d.pop("name2") # KeyError
+# result = d.pop("name2", "NEO")
+# print(result)
+# print(d)
+
+# popitem
+# d = {"name": "NEO", "age": 18, "gender": "男"}
+# result = d.popitem()
+# print(result)
+# print(d)
+
+# d = {}
+# result = d.popitem()
+# print(result)
+# print(d)
+
+# clear
+d = {"name": "NEO", "age": 18, "gender": "男"}
+result = d.clear()
+print(result)
 print(d)
-print(id(d))
