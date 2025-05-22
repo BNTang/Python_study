@@ -34,6 +34,9 @@ print(return_bool)  # 输出: False
 ### 使用示例
 
 **成功示例：**
+
+
+
 ```python
 info = "123"
 return_bool = info.isdigit()
