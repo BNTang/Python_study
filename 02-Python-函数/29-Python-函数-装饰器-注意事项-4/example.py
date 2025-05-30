@@ -6,7 +6,7 @@
 # @Software: VSCode
 # @Email   : it666@linux.do
 # @Github  : https://github.com/BNTang
-# @Description: 29-Python-函数-装饰器-注意事项-4 带参数的装饰器
+# @Description: 29-Python-函数-装饰器-注意事项-4
 
 """
 装饰器进阶：带参数的装饰器
